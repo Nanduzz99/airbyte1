@@ -1,0 +1,1 @@
+{"ssl":false,"host":"34.136.115.224","port":5432,"schema":"airbyte_1","database":"retisio_analytics_db","password":"password1","username":"analytics_admin","tunnel_method":{"tunnel_method":"NO_TUNNEL"}}

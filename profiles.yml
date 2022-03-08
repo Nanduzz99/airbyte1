@@ -1,0 +1,17 @@
+config:
+  partial_parse: true
+  printer_width: 120
+  send_anonymous_usage_stats: false
+  use_colors: true
+normalize:
+  outputs:
+    prod:
+      dbname: retisio_analytics_db
+      host: 34.136.115.224
+      pass: password1
+      port: 5432
+      schema: airbyte_1
+      threads: 8
+      type: postgres
+      user: analytics_admin
+  target: prod
